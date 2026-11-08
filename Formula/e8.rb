@@ -21,7 +21,7 @@ class E8 < Formula
   on_linux do
     on_intel do
       url "https://github.com/e8-editor/e8/releases/download/v0.5.0/e8-0.5.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5da9e022d86a5d046645d324c243717ec6ec16b1e52932dcfd78f280016f096b"
+      sha256 ""
     end
   end
 
