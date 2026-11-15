@@ -1,3 +1,5 @@
+<img alt="E8" src="https://raw.githubusercontent.com/e8-editor/e8/main/docs/assets/banner-compact.png">
+
 # Homebrew tap for E8
 
 [E8](https://github.com/e8-editor/e8) for Homebrew, on Apple silicon Macs and on Linux:
