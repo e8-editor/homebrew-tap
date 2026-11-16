@@ -1,27 +1,27 @@
-# Written by update-formula.sh from E8 0.5.13's release; edit the
+# Written by update-formula.sh from E8 0.5.14's release; edit the
 # script, not this file.
 class E8 < Formula
   desc "Editor that works the way Emacs works, extended in TypeScript"
   homepage "https://github.com/e8-editor/e8"
-  version "0.5.13"
+  version "0.5.14"
   license "GPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/e8-editor/e8/releases/download/v0.5.13/e8-0.5.13-aarch64-apple-darwin.tar.gz"
-      sha256 "0b018bf8bba207e0d1ce81b2842aab87f389e02ca676b78b7bc05598588db64d"
+      url "https://github.com/e8-editor/e8/releases/download/v0.5.14/e8-0.5.14-aarch64-apple-darwin.tar.gz"
+      sha256 "a6d8fe4ed4a099afef160b2d394df63c0f4d10113e0084ad3bd4cf94088df1c1"
 
       resource "app" do
-        url "https://github.com/e8-editor/e8/releases/download/v0.5.13/E8-0.5.13-aarch64-apple-darwin.app.tar.gz"
-        sha256 "1849ab5b6c09c48dccc3ad799646bf6e76caee25879c4b2ee100394949f9c976"
+        url "https://github.com/e8-editor/e8/releases/download/v0.5.14/E8-0.5.14-aarch64-apple-darwin.app.tar.gz"
+        sha256 "1320c9f385bfd13ae44d3ebe8155f6c50b86dd6b926a3b2caddd6fb6f8b2594e"
       end
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/e8-editor/e8/releases/download/v0.5.13/e8-0.5.13-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b9b716f138ae87d60248e1cfebb75be47d8caf87b8333a999da5196f93a3a430"
+      url "https://github.com/e8-editor/e8/releases/download/v0.5.14/e8-0.5.14-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "76b470cb656f36f661c61318d6f005c4691aeea99a32735677c8de7e3235b342"
     end
   end
 
